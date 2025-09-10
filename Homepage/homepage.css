@@ -557,6 +557,80 @@ background-color: rgb(21, 11, 51);
 }
 
 
+.testimonial-section {
+    font-family: Arial;
+    background: #f2faec;
+    padding: 1.5vw;
+    text-align: center;
+    margin-top: 5vw;
+    padding-bottom: 10vw;
+    margin-right: 0vw;
+    margin-left: 0vw;
+  }
+  
+  .subtitle {
+    color: #87da48;
+    margin-top: 5vw;
+    font-style: italic;
+  }
+  
+  .title {
+    font-size: 2vw;
+    margin: 0 0 2vw;
+    color: #2d2d2d;
+  }
+
+  
+  .testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+  }
+  
+  .testimonial {
+    background: #fff;
+    padding: 2.3vw;
+    border-radius: 0.5vw;
+    box-shadow: 0 0.3vw 0.6vw rgba(0,0,0,0.1);
+    width: 40vw;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;   
+    gap: 1.5vw;
+  }
+  
+  .testimonial img {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .quote {
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 0.5vw;
+  }
+  
+  .text {
+    font-size: 1vw;
+    color: #666;
+    margin: 0 0 1vw;
+    line-height: 1.7vw;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .role {
+    font-size: 0.9vw;
+    color: #999;
+    margin: 0.3vw 0 0;
+  }
+
 .image-bar {
     padding: 2vw 0;
     background-color: #f7f7f7;
