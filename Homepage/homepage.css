@@ -252,6 +252,7 @@ display: inline;
     font-size: 1.1vw;
     padding-top: 1vw;
     padding-bottom: 0.3vw;
+    font-weight: bold;
 }
 a {
   text-decoration: none;
@@ -464,21 +465,24 @@ border-radius: 1vw;
 }
 
 .best-product-text-div{
-padding-top: 0.3vw;
+padding-top: 0.6vw;
 }
 .best-product-text-title{
-padding-bottom: 1vw;
+font-size: 1.1vw;
+padding-bottom: 0.5vw;
 font-weight: bold;
 }
 .best-product-text-rating{
-
+font-size: 1.2vw;
 }
 .best-product-text-price{
 padding-bottom: 0.6vw;
 margin-top: 0.3vw;
+font-size: 1.1vw;
 }
 .best-product-addtocart{
 font-weight: bold;
+font-size: 1.1vw;
 }
 
 
@@ -519,6 +523,9 @@ margin: 7vw 5vw 3vw 5vw;
 }
 .summer-sale-banner-div{
 position: relative;
+}
+.summer-sale-banner-image{
+  width: 90vw;
 }
 .summer-sale-banner-text{
 top: 2vw;
