@@ -37,6 +37,9 @@ padding-right: 4.688vw;
     display: flex;
     flex-direction: row;
     gap: 2.344vw;
+    vertical-align: auto;
+    padding-bottom: 0vw;
+
 }
 
 .header-items ul li{
@@ -174,7 +177,7 @@ background-color: rgb(2, 2, 29);
 padding-top: 6vw;
 padding-bottom: 3vw;
 padding-left: 5vw;
-margin-right: 12vw;
+margin-right: 5vw;
 }
 .info{
 display:flex ;
@@ -188,9 +191,12 @@ gap: 4vw;
     padding-top: 1.7vw;
     border-radius: 0.208vw;
     border-top-left-radius: 0.208vw ;
+    vertical-align: middle;
 }
 .info-text-div{
 padding-top: 3vw;
+vertical-align: middle;
+padding-right: 6vw;
 
 }
 .info-checkboxes{
@@ -579,6 +585,7 @@ background-color: rgb(21, 11, 51);
     color: #87da48;
     margin-top: 5vw;
     font-style: italic;
+    font-size: 1.5vw;
   }
   
   .title {
@@ -615,6 +622,7 @@ background-color: rgb(21, 11, 51);
   }
 
   .quote {
+    font-size: 1.2vw;
     font-weight: bold;
     color: #333;
     margin: 0 0 0.5vw;
@@ -628,6 +636,7 @@ background-color: rgb(21, 11, 51);
   }
   
   .name {
+    font-size: 1vw;
     font-weight: bold;
     margin: 0;
   }
@@ -812,6 +821,8 @@ background-color: rgb(21, 11, 51);
   .newsletter input[type="email"] {
     padding-left: 0.416vw;
     color: black;
+    width: 12vw;
+    height: 1vw;
   }
   
   .newsletter p {
@@ -827,6 +838,8 @@ background-color: rgb(21, 11, 51);
     border-radius: 1.302vw;
     cursor: pointer;
     text-decoration: none;
+    width: 5vw;
+    height: 1.5vw;
   }
   
   .subscribe-btn:hover {
