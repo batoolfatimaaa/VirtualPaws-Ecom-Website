@@ -21,16 +21,16 @@ p{
     align-items: center;
     width: 100vw;
     height: 3vw;
-    z-index: 999; /* Lower than navbar so navbar stays on top when sticky */
+    z-index: 999;
     position: relative; 
 }
 
 .header-content{
-padding-left: 4.167vw;
+    padding-left: 4.167vw;
 }   
 
 .header-items{
-padding-right: 4.688vw;
+    padding-right: 4.688vw;
 }
 
 .header-items ul{
@@ -39,7 +39,6 @@ padding-right: 4.688vw;
     gap: 2.344vw;
     vertical-align: auto;
     padding-bottom: 0vw;
-
 }
 
 .header-items ul li{
@@ -53,17 +52,16 @@ padding-right: 4.688vw;
 }
 
 .navbar {
-    top: 0;
+    position: fixed;
+    top: 0; 
+    left: 0;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    padding-top: 0px;
-    padding-bottom: 0px;
     z-index: 1000;
     width: 100%;
 }
 
 .nav {
-    position: sticky;
     display: flex;
     flex-direction: row;
     height: 6vw;
@@ -72,13 +70,21 @@ padding-right: 4.688vw;
     justify-content: space-between;
     align-items: center;
 }
+
+body {
+    padding-top: 6vw; 
+    margin: 0; /* Remove default body margin if any */
+}
+
+
+
 .logo{
     width: 16vw;
     padding-left: 2.604vw;
 }
 
 .nav-items{
-padding-right: 3.125vw;
+    padding-right: 3.125vw;
 }
 
 .nav-items ul{
@@ -98,12 +104,13 @@ padding-right: 3.125vw;
     font-size: 1.15vw;
     font-weight: bold;
 }
+
 .nav-items ul li a:hover{
-color: rgb(135, 218, 72);
+    color: rgb(135, 218, 72);
 }
 
 .nav-items-logo{
-padding-right: 3.646vw;
+    padding-right: 3.646vw;
 }
 
 .nav-items-logo ul{
@@ -121,6 +128,7 @@ padding-right: 3.646vw;
     color: black;
     font-size: 1.3vw;
 }
+
 .nav-items-logo ul li a:hover{
     color: rgb(135, 218, 72);
 }
@@ -779,7 +787,7 @@ background-color: rgb(21, 11, 51);
   }
   
   .footer-column ul li {
-    margin: 0.416vw 0;
+    margin: 0.5vw;
   }
   
   .footer-column ul li a {
@@ -824,6 +832,9 @@ background-color: rgb(21, 11, 51);
     width: 12vw;
     height: 1vw;
   }
+  .email-placeholder{
+    font-size: 1vw;
+  }
   
   .newsletter p {
     max-width: 20.833vw;
@@ -832,6 +843,7 @@ background-color: rgb(21, 11, 51);
   
   .subscribe-btn {
     background: #87da48;
+    font-size: 1vw;
     border: none;
     color: #fff;
     padding: 0.625vw 1.302vw;
